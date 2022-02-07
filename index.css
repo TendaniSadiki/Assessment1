@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+}
+/* Navbar*/
+body nav {
+    height: 50px;
+    border-bottom: black 1px ridge;
+    top: 0;
+    background-color: rgb(27, 109, 185);
+    position: fixed;
+    width: 100%;
+    left: 0;
+    overflow: hidden;   
+    margin: 0;
+  padding: 0;
+
+}
+body nav p{
+    width: 110px;
+    height: 20px;
+    border:ridge 1px rgb(255, 255, 255);
+    padding: 5px;
+    color: white;
+}
+body nav .leftContent{
+    float: left;
+    padding-left: 10px;
+ }
+/* Navbar Right links*/
+body nav .right{
+   float: right;
+   margin-top: 15px;
+}
+/* Navbar links*/
+body nav div a{
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: white;
+}
+
+/* Move main from navbar*/
+body main{
+    padding-top: 50px;
+}
+/*Main h1*/
+body main .home{
+    padding-left: 10px;
+}
+/* Main left Content*/
+body main .headContentLeft {
+    float: left;
+    width: 50%;
+}
+/* Main left Content Paragraph*/
+body main .headContentLeft p{
+    padding: 20px;
+}
+/* Main left Content Paragraph h1*/
+body main .headContentLeft h1{
+    padding-left: 20px;
+}
+/* Main left Content button*/
+body main .headContentLeft .buttonContent{
+    padding-left: 20px;
+    width: 30px;
+    height: 400px;
+}
+
+body main .headContentLeft .buttonContent button{
+width: 110px;
+height: 50px;
+cursor: pointer;
+}
+/* Main right Content*/
+body main .headContentRight {
+    float: right;
+    width: 50%;
+}
+/* Main left Content Img*/
+body main .headContentRight img {
+    
+    padding-left: 150px;
+
+}
+.Wrapper{
+    height: 510px;
+    
+}
+footer {
+    width: 100%;
+    height: 150px;
+}
+body .footerContent{
+    background-color: rgb(27, 109, 185);
+    width: 100%;
+    height: 90px; 
+    text-align: center;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    
+}
+footer .footerContent a{
+    text-decoration: none;
+    border:ridge black 1px;
+    margin: 15px;
+    position: relative;
+    color: white;
+    padding: 15px;
+    left: 0;
+}
+footer .footerContent .facebook{
+    color: blue;
+}
+footer .footerContent .twitter{
+    color: turquoise;
+}
+footer .footerContent .instagram{
+color: rgb(255, 255, 255);
+}
+footer .footerContent .youtube{
+    color: red;
+}

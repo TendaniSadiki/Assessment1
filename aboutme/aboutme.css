@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+}
+body nav {
+    height: 50px;
+    border-bottom: black 1px ridge;
+    overflow: hidden;
+}
+body nav .right{
+   float: right;
+}
+body nav div a{
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 17px;
+    text-decoration: none;
+}
